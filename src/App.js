@@ -1,9 +1,12 @@
 import "./App.css";
+import Nav from "./Components/Nav";
+import MainCard from "./Components/MainCard";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Nav />
+      <MainCard />
     </div>
   );
 }
