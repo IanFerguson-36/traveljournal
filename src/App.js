@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./Components/Nav";
 import MainCard from "./Components/MainCard";
+import Data from "./Data";
 
 function App() {
   return (
