@@ -1,1 +1,32 @@
 
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0%
+}
+
+.nav-bar{
+  background-color:#F55A5A;
+  display: block;
+ object-fit: cover;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+
+  
+}
+
+.nav-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+
+}
+
+.globe {
+  margin-right: 5px;
+}

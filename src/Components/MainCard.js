@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Maincard() {
-  return <div>This is the Main Card</div>;
+export default function Maincard(props) {
+  return <div></div>;
 }
