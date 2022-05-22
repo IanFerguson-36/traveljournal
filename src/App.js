@@ -4,10 +4,14 @@ import MainCard from "./Components/MainCard";
 import Data from "./Data";
 
 function App() {
+  const card = Data.map((item) => {
+    return <MainCard key={item.id} item={item} />;
+  });
+
   return (
     <div className="App">
       <Nav />
-      <MainCard />
+      {card}
     </div>
   );
 }
