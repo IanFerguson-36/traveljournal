@@ -30,3 +30,58 @@ body {
 .globe {
   margin-right: 5px;
 }
+
+.card-container {
+  display: flex;
+
+}
+
+.place-pic {
+  height: 250px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 8px;
+  border-radius: 10px;
+
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.maps-logo {
+  height: 15px;
+  width: 10px;
+  margin-right: 8px;
+}
+
+.google-container {
+  display: flex;
+  align-items:center;
+  padding-top: 30px;
+  margin-bottom: 0px;
+  /* padding-bottom: -20px; */
+
+}
+
+.location {
+  
+  margin-right: 10px;
+}
+
+.title {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom:10px ;
+}
+
+.description {
+  display: block;
+}
+
+.timeline {
+  margin-bottom: 5px;
+}
